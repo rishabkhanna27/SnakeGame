@@ -51,10 +51,11 @@ body{
   margin-left: 10%;
 }
 .controller{
-  margin-top: 380%;
+  margin-top: 280%;
 }
 .button{
-    padding:3%;
-
+    padding:5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
