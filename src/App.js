@@ -4,7 +4,7 @@ import Food from './Components/Food';
 import Footer from './Components/Footer';
 import {Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faPause, faRedo  } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faPause, faRedo, faArrowRight, faArrowLeft, faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 const getRandomCoordinates = () => {
@@ -35,6 +35,18 @@ class App extends Component {
   };
   handleRestart = () => {
     this.setState(initialState);
+  }
+  handleRight = () => {
+    this.setState({direction: 'RIGHT'});
+  }
+  handleLeft = () => {
+    this.setState({direction: 'LEFT'});
+  }
+  handleUp = () => {
+    this.setState({direction: 'UP'});
+  }
+  handleDown = () => {
+    this.setState({direction: 'DOWN'});
   }
   state = initialState;
 
@@ -170,7 +182,12 @@ class App extends Component {
       <Button className="button" variant="danger" size="lg"  onClick={this.handleRestart}><FontAwesomeIcon icon={faRedo} /></Button>
      
       </div>
-
+      <div className="controller">
+      <p><Button className="button" id="up" variant="info" size="lg"  onClick={this.handleUp}><FontAwesomeIcon icon={faArrowUp} /></Button>{'     '}</p>
+      <Button className="button" variant="info" size="lg"  onClick={this.handleLeft}><FontAwesomeIcon icon={faArrowLeft} /></Button>{'     '}
+      <Button className="button" variant="primary" size="lg"  onClick={this.handleDown}><FontAwesomeIcon icon={faArrowDown} /></Button> {'    '}
+      <Button className="button" variant="info" size="lg"  onClick={this.handleRight}><FontAwesomeIcon icon={faArrowRight} /></Button>
+      </div>
       <Footer/>
       </div>
     );
