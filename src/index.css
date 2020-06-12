@@ -10,7 +10,7 @@ body{
   position: absolute;
   margin-right: 15%;
   margin-left: 15%;
-  margin-top: 17%;
+  margin-top: 21%;
   width: 70%;
   height: 45%;
   background-color: #000;
@@ -52,7 +52,7 @@ body{
 }
 .controller{
   margin-top: 132%;
-  padding-left: 35%;
+  padding-left: 20%;
 
 }
 .button{
