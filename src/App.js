@@ -172,6 +172,7 @@ class App extends Component {
         <Snake snakeDots={this.state.snakeDots}/>
         <Food dot={this.state.food}/>
       </div>
+
       <p className="head">
             <b><u>Snake Game</u></b>
           </p>
@@ -180,14 +181,14 @@ class App extends Component {
       <Button className="button" variant="info" size="lg"  onClick={this.handleStart}><FontAwesomeIcon icon={faPlay} /></Button>{'     '}
       <Button className="button" variant="primary" size="lg"  onClick={this.handlePause}><FontAwesomeIcon icon={faPause} /></Button> {'    '}
       <Button className="button" variant="danger" size="lg"  onClick={this.handleRestart}><FontAwesomeIcon icon={faRedo} /></Button>
-     
-      </div>
       <div className="controller">
-      <p><Button className="button" id="up" variant="info" size="lg"  onClick={this.handleUp}><FontAwesomeIcon icon={faArrowUp} /></Button>{'     '}</p>
+      <p><Button className="button" id="up" variant="info" size="lg"  onClick={this.handleUp}><FontAwesomeIcon icon={faArrowUp} /></Button></p>
       <Button className="button" variant="info" size="lg"  onClick={this.handleLeft}><FontAwesomeIcon icon={faArrowLeft} /></Button>{'     '}
       <Button className="button" variant="primary" size="lg"  onClick={this.handleDown}><FontAwesomeIcon icon={faArrowDown} /></Button> {'    '}
       <Button className="button" variant="info" size="lg"  onClick={this.handleRight}><FontAwesomeIcon icon={faArrowRight} /></Button>
       </div>
+      </div>
+
       <Footer/>
       </div>
     );
