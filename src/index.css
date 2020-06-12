@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(13, 13, 75);
+}
 .main{
   margin: 0;
   padding-left: 40%;
@@ -5,10 +8,10 @@
 }
 .area{
   position: absolute;
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 15%;
+  margin-left: 15%;
   margin-top: 17%;
-  width: 60%;
+  width: 70%;
   height: 45%;
   background-color: #000;
   border: 2px solid #000;
@@ -48,5 +51,5 @@
   margin-left: 5.7%;
 }
 .controller{
-  margin-top: 90%;
+  margin-top: 150%;
 }
