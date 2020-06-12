@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SnakeGame/static/css/main.49f698c5.chunk.css",
+    "main.css": "/SnakeGame/static/css/main.9f33e94f.chunk.css",
     "main.js": "/SnakeGame/static/js/main.7f5ff585.chunk.js",
     "main.js.map": "/SnakeGame/static/js/main.7f5ff585.chunk.js.map",
     "runtime-main.js": "/SnakeGame/static/js/runtime-main.f79e504e.js",
@@ -8,15 +8,15 @@
     "static/js/2.f56b2937.chunk.js": "/SnakeGame/static/js/2.f56b2937.chunk.js",
     "static/js/2.f56b2937.chunk.js.map": "/SnakeGame/static/js/2.f56b2937.chunk.js.map",
     "index.html": "/SnakeGame/index.html",
-    "precache-manifest.48e71161d0a1d34490193ba4dab57c02.js": "/SnakeGame/precache-manifest.48e71161d0a1d34490193ba4dab57c02.js",
+    "precache-manifest.adbedb193bb6a5489004a7e56ab5add7.js": "/SnakeGame/precache-manifest.adbedb193bb6a5489004a7e56ab5add7.js",
     "service-worker.js": "/SnakeGame/service-worker.js",
-    "static/css/main.49f698c5.chunk.css.map": "/SnakeGame/static/css/main.49f698c5.chunk.css.map",
+    "static/css/main.9f33e94f.chunk.css.map": "/SnakeGame/static/css/main.9f33e94f.chunk.css.map",
     "static/js/2.f56b2937.chunk.js.LICENSE.txt": "/SnakeGame/static/js/2.f56b2937.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f79e504e.js",
     "static/js/2.f56b2937.chunk.js",
-    "static/css/main.49f698c5.chunk.css",
+    "static/css/main.9f33e94f.chunk.css",
     "static/js/main.7f5ff585.chunk.js"
   ]
 }
