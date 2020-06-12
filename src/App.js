@@ -17,7 +17,7 @@ const getRandomCoordinates = () => {
 
 const initialState = {
   food: getRandomCoordinates(),
-  speed: 200,
+  speed: 150,
   direction: 'RIGHT',
   isActive: false,
   snakeDots: [
@@ -90,16 +90,16 @@ class App extends Component {
 
     switch (this.state.direction) {
       case 'RIGHT':
-        head = [head[0] + 3, head[1]];
+        head = [head[0] + 2, head[1]];
         break;
       case 'LEFT':
-        head = [head[0] - 3, head[1]];
+        head = [head[0] - 2, head[1]];
         break;
       case 'DOWN':
-        head = [head[0], head[1] + 3];
+        head = [head[0], head[1] + 2];
         break;
       case 'UP':
-        head = [head[0], head[1] - 3];
+        head = [head[0], head[1] - 2];
         break;
       default:
         break;
