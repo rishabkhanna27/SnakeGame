@@ -2,9 +2,8 @@ body{
   background-color: rgb(13, 13, 75);
 }
 .main{
-  margin: 0;
-  padding-left: 43%;
- 
+  margin: 0 auto;
+  text-align: center;
 }
 .area{
   position: absolute;
@@ -19,8 +18,8 @@ body{
 .main-dot{
   position: absolute;
   border-radius: 55%;
-  width:2%;
-  height: 2%;
+  width:3%;
+  height: 3%;
   background-color: rgb(196, 29, 29);
   border: 1px solid #fff;
   z-index: 2;
@@ -28,8 +27,8 @@ body{
 
 .main-food{
   position: absolute;
-  width: 2%;
-  height: 2%;
+  width: 3%;
+  height: 3%;
   border-radius: 55%;
   background-color: darkgreen;
   border: 1px solid #fff;
@@ -38,7 +37,6 @@ body{
 .footer{
   position: absolute;
   margin-top: 20%;
-  margin-left: 33%;
   color: red;
   font-size: xx-large;
 }
@@ -47,12 +45,12 @@ body{
   color: red;
   text-align: center;
 }
-#up{
-  margin-left: 17%;
+.bt{
+  padding: 2%;
 }
 .controller{
   margin-top: 90%;
-  padding-left: 25%;
+  text-align: center;
 
 }
 .button{
