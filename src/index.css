@@ -37,7 +37,7 @@ body{
 }
 .footer{
   position: absolute;
-  margin-top: 50%;
+  margin-top: 20%;
   margin-left: 33%;
   color: red;
   font-size: xx-large;
@@ -52,7 +52,7 @@ body{
 }
 .controller{
   margin-top: 90%;
-  padding-left: 30%;
+  padding-left: 42%;
 
 }
 .button{
