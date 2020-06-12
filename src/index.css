@@ -3,7 +3,7 @@ body{
 }
 .main{
   margin: 0;
-  padding-left: 40%;
+  padding-left: 42%;
  
 }
 .area{
@@ -51,8 +51,8 @@ body{
   margin-left: 15%;
 }
 .controller{
-  margin-top: 155%;
-  padding-right: 20%;
+  margin-top: 145%;
+  /* padding-right: 20%; */
 
 }
 .button{
