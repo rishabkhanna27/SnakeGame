@@ -41,6 +41,7 @@ body{
   text-align: center;
   margin-left: 42%;
   color: red;
+  font-size: x-large;
 }
 .head{
   font-size: 300%;
@@ -48,10 +49,10 @@ body{
   text-align: center;
 }
 #up{
-  margin-left: 10%;
+  margin-left: 15%;
 }
 .controller{
-  margin-top: 80%;
+  margin-top: 75%;
 }
 .button{
     padding:6%;
