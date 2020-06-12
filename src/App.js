@@ -161,7 +161,7 @@ class App extends Component {
         <Food dot={this.state.food}/>
       </div>
       <p className="head">
-            <b>Snake Game</b>
+            <b><u>Snake Game</u></b>
           </p>
       <div className="main">
       
