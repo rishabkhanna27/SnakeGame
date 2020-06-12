@@ -1,12 +1,13 @@
 .main{
   margin: 0;
-  background-color: darkblue;
+  padding-left: 45.8%;
+ 
 }
 .area{
   position: absolute;
   margin-right: 25%;
   margin-left: 25%;
-  margin-top: 5%;
+  margin-top: 8%;
   width: 50%;
   height: 70%;
   background-color: #000;
@@ -33,8 +34,13 @@
 }
 .footer{
   position: absolute;
-  margin-top: 47%;
+  margin-top: 50%;
   text-align: center;
   margin-left: 45%;
   color: red;
+}
+.head{
+  font-size: 300%;
+  color: red;
+  text-align: center;
 }

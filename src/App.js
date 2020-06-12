@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import Snake from './Components/Snake';
 import Food from './Components/Food';
 import Footer from './Components/Footer';
-// import {Button } from 'react-bootstrap';
+import {Button } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay, faPause, faRedo  } from '@fortawesome/free-solid-svg-icons';
+
 
 const getRandomCoordinates = () => {
   let min = 1;
@@ -23,12 +26,16 @@ const initialState = {
   ]
 }
 class App extends Component {
-  handleShow = () => {
+
+  handleStart = () => {
     this.setState({isActive: true});
   };
-  handleHide = () => {
+  handlePause = () => {
     this.setState({isActive: false});
   };
+  handleRestart = () => {
+    this.setState(initialState);
+  }
   state = initialState;
 
   componentDidMount() {
@@ -64,8 +71,8 @@ class App extends Component {
   }
   
   moveSnake = () => {
-    // if(this.state.isActive)
-    // {
+    if(this.state.isActive)
+    {
     let dots = [...this.state.snakeDots];
     let head = dots[dots.length - 1];
 
@@ -92,7 +99,7 @@ class App extends Component {
       snakeDots: dots
     })
   }
-  // }
+  }
   checkIfOutOfBorders() {
     let head = this.state.snakeDots[this.state.snakeDots.length - 1];
     if (head[0] >= 100 || head[1] >= 100 || head[0] < 0 || head[1] < 0) {
@@ -146,13 +153,24 @@ class App extends Component {
   
   render() {
     return (
-      <div className="main">
+      <div>
+      
         <div className="area">
+          
         <Snake snakeDots={this.state.snakeDots}/>
         <Food dot={this.state.food}/>
       </div>
-      {/* <Button variant="danger"  type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit">Submit</Button> */}
-      {/* <Button variant="primary" size="lg" block onClick={this.handleHide}>Pause</Button> <Button variant="danger" onClick={this.handleShow}>Start</Button> */}
+      <p className="head">
+            <b>Snake Game</b>
+          </p>
+      <div className="main">
+      
+      <Button className="button" variant="info" size="lg"  onClick={this.handleStart}><FontAwesomeIcon icon={faPlay} /></Button>{'     '}
+      <Button className="button" variant="primary" size="lg"  onClick={this.handlePause}><FontAwesomeIcon icon={faPause} /></Button> {'    '}
+      <Button className="button" variant="danger" size="lg"  onClick={this.handleRestart}><FontAwesomeIcon icon={faRedo} /></Button>
+     
+      </div>
+
       <Footer/>
       </div>
     );
