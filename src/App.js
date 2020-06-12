@@ -178,9 +178,9 @@ class App extends Component {
           </p>
       <div className="main">
       
-      <Button className="button" variant="info" size="lg"  onClick={this.handleStart}><FontAwesomeIcon icon={faPlay} /></Button>{'     '}
-      <Button className="button" variant="primary" size="lg"  onClick={this.handlePause}><FontAwesomeIcon icon={faPause} /></Button> {'    '}
-      <Button className="button" variant="danger" size="lg"  onClick={this.handleRestart}><FontAwesomeIcon icon={faRedo} /></Button>
+      <Button variant="info" size="lg"  onClick={this.handleStart}><FontAwesomeIcon icon={faPlay} /></Button>{'     '}
+      <Button variant="primary" size="lg"  onClick={this.handlePause}><FontAwesomeIcon icon={faPause} /></Button> {'    '}
+      <Button variant="danger" size="lg"  onClick={this.handleRestart}><FontAwesomeIcon icon={faRedo} /></Button>
       <div className="controller">
       <p><Button className="button" id="up" variant="info" size="lg"  onClick={this.handleUp}><FontAwesomeIcon icon={faArrowUp} /></Button></p>
       <Button className="button" variant="info" size="lg"  onClick={this.handleLeft}><FontAwesomeIcon icon={faArrowLeft} /></Button>{'     '}

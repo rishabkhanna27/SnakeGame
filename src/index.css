@@ -48,8 +48,13 @@ body{
   text-align: center;
 }
 #up{
-  margin-left: 5.7%;
+  margin-left: 10%;
 }
 .controller{
-  margin-top: 150%;
+  margin-top: 380%;
 }
+.button{
+    padding:3%;
+
+}
+
