@@ -38,8 +38,7 @@ body{
 .footer{
   position: absolute;
   margin-top: 50%;
-  text-align: center;
-  margin-left: 42%;
+  margin-left: 35%;
   color: red;
   font-size: xx-large;
 }
@@ -52,7 +51,7 @@ body{
   margin-left: 15%;
 }
 .controller{
-  margin-top: 80%;
+  margin-top: 120%;
 }
 .button{
     padding:6%;
