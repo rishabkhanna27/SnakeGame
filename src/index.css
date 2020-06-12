@@ -1,15 +1,15 @@
 .main{
   margin: 0;
-  padding-left: 45.8%;
+  padding-left: 40%;
  
 }
 .area{
   position: absolute;
-  margin-right: 25%;
-  margin-left: 24%;
-  margin-top: 15%;
-  width: 50%;
-  height: 50%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 17%;
+  width: 60%;
+  height: 45%;
   background-color: #000;
   border: 2px solid #000;
 }
@@ -17,7 +17,7 @@
   position: absolute;
   border-radius: 55%;
   width:2%;
-  height: 3%;
+  height: 2%;
   background-color: rgb(196, 29, 29);
   border: 1px solid #fff;
   z-index: 2;
@@ -26,7 +26,7 @@
 .main-food{
   position: absolute;
   width: 2%;
-  height: 3%;
+  height: 2%;
   border-radius: 55%;
   background-color: darkgreen;
   border: 1px solid #fff;
@@ -34,9 +34,9 @@
 }
 .footer{
   position: absolute;
-  margin-top: 25%;
+  margin-top: 50%;
   text-align: center;
-  margin-left: 45%;
+  margin-left: 42%;
   color: red;
 }
 .head{
@@ -48,5 +48,5 @@
   margin-left: 5.7%;
 }
 .controller{
-  margin-top: 70%;
+  margin-top: 90%;
 }
