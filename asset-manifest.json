@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/SnakeGame/static/css/main.5fed4360.chunk.css",
-    "main.js": "/SnakeGame/static/js/main.9b808ada.chunk.js",
-    "main.js.map": "/SnakeGame/static/js/main.9b808ada.chunk.js.map",
-    "runtime-main.js": "/SnakeGame/static/js/runtime-main.f79e504e.js",
-    "runtime-main.js.map": "/SnakeGame/static/js/runtime-main.f79e504e.js.map",
-    "static/js/2.f56b2937.chunk.js": "/SnakeGame/static/js/2.f56b2937.chunk.js",
-    "static/js/2.f56b2937.chunk.js.map": "/SnakeGame/static/js/2.f56b2937.chunk.js.map",
-    "index.html": "/SnakeGame/index.html",
-    "precache-manifest.d81784fb168497781c37e9810bc93e91.js": "/SnakeGame/precache-manifest.d81784fb168497781c37e9810bc93e91.js",
-    "service-worker.js": "/SnakeGame/service-worker.js",
-    "static/css/main.5fed4360.chunk.css.map": "/SnakeGame/static/css/main.5fed4360.chunk.css.map",
-    "static/js/2.f56b2937.chunk.js.LICENSE.txt": "/SnakeGame/static/js/2.f56b2937.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5fed4360.chunk.css",
+    "main.js": "/static/js/main.97248998.chunk.js",
+    "main.js.map": "/static/js/main.97248998.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f231aec5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f231aec5.js.map",
+    "static/js/2.f56b2937.chunk.js": "/static/js/2.f56b2937.chunk.js",
+    "static/js/2.f56b2937.chunk.js.map": "/static/js/2.f56b2937.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bd9e29f85ac2b7644fb28f3846161468.js": "/precache-manifest.bd9e29f85ac2b7644fb28f3846161468.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5fed4360.chunk.css.map": "/static/css/main.5fed4360.chunk.css.map",
+    "static/js/2.f56b2937.chunk.js.LICENSE.txt": "/static/js/2.f56b2937.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f79e504e.js",
+    "static/js/runtime-main.f231aec5.js",
     "static/js/2.f56b2937.chunk.js",
     "static/css/main.5fed4360.chunk.css",
-    "static/js/main.9b808ada.chunk.js"
+    "static/js/main.97248998.chunk.js"
   ]
 }
